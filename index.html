@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Satvik Bhog Restaurant</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fffaf0;
+    color: #24332e;
+}
+
+/* HEADER */
+
+header {
+    background: #080808;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.satvik {
+    color: white;
+    text-shadow: 0 0 10px white;
+}
+
+.bhog {
+    color: red;
+    text-shadow: 0 0 10px red;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* HERO SECTION */
+
+.hero {
+    min-height: 550px;
+
+    background:
+    linear-gradient(
+        rgba(5,35,25,0.75),
+        rgba(5,35,25,0.75)
+    ),
+    url("images/restaurant.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 65px;
+    margin: 15px 0;
+}
+
+.hero p {
+    font-size: 23px;
+    line-height: 1.6;
+}
+
+.tag {
+    color: #f6d88e;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.btn {
+    display: inline-block;
+    background: #e6b85c;
+    color: #24332e;
+    padding: 15px 25px;
+    margin-top: 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ABOUT */
+
+section {
+    padding: 65px 5%;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about h2 {
+    color: #123f35;
+    font-size: 38px;
+    margin: 15px 0;
+}
+
+.about p {
+    font-size: 19px;
+    line-height: 1.7;
+}
+
+.about img {
+    width: 40%;
+    border-radius: 20px;
+}
+
+.facts {
+    margin-top: 25px;
+}
+
+.facts span {
+    background: #e8f1eb;
+    padding: 12px;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 5px;
+    font-weight: bold;
+}
+
+/* GALLERY */
+
+#menu {
+    text-align: center;
+}
+
+#menu h2 {
+    font-size: 38px;
+    color: #123f35;
+    margin: 15px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.note {
+    background: #fff4d9;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+/* VIS
